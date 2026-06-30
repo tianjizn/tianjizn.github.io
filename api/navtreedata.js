@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "FX_SDK", "index.html", [
+  [ "My Project", "index.html", [
     [ "Topics", "topics.html", "topics" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -50,9 +50,9 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_f_x_cmpl_opt_8h.html",
-"_l0_robot_8h.html#abf640875e410b4448116b1fafd62e01e",
-"struct_h_a_n_d___s_g.html#a561478f44622d652e08550d2e49fd093"
+"_f_x_common_8h.html",
+"_l1_robot_8h.html#a7189e2667457de09c255131c733c3f70",
+"struct_a_r_m___o_u_t.html#a4a507aa8966d7bab389699255414b04b"
 ];
 
 const SYNCONMSG = 'click to disable panel synchronization';

@@ -9,6 +9,6 @@ var struct_a_r_m___s_e_t =
     [ "m_ARM_Ctrl_ToolDyna", "struct_a_r_m___s_e_t.html#aeb7fdcaf2e5f84438da77207c3bf9844", null ],
     [ "m_ARM_Ctrl_ToolKine", "struct_a_r_m___s_e_t.html#a1a7f7baeef141eed7f1d2c51affb7a74", null ],
     [ "m_ARM_Ctrl_VelRatio", "struct_a_r_m___s_e_t.html#abaa6770c92657733b8780fd629106571", null ],
-    [ "m_ARM_SET_SetTags", "struct_a_r_m___s_e_t.html#a4d12f570faefcf1101592877c84d36eb", null ],
-    [ "m_ARM_SET_UpDateTag", "struct_a_r_m___s_e_t.html#a0324c1d893ba6b8e7970390cb1c36917", null ]
+    [ "m_ARM_SET_SetTag", "struct_a_r_m___s_e_t.html#a55952ad4673eead7fdf6a83a17db55fa", null ],
+    [ "m_ARM_SET_UpdateTag", "struct_a_r_m___s_e_t.html#a6842ea7b77eda07dedccae96209c40ec", null ]
 ];

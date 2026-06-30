@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.17.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>FX_SDK: source/Common/FXErrorCode.h File Reference</title>
+<title>My Project: FXErrorCode.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="codefolding.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -30,7 +30,7 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">FX_SDK<span id="projectnumber">&#160;00040101</span>
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -119,106 +119,105 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('_f_x_error_cod
 </div><!--header-->
 <div class="contents">
 
+<p>Error code definitions and function return status types for the FX system.  
+<a href="#details">More...</a></p>
+
 <p><a href="_f_x_error_code_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:af2959243b6d2d01bcc8c6cf6a3c1e1f8" id="r_af2959243b6d2d01bcc8c6cf6a3c1e1f8"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8">FXErrorCode</a> { <br />
-&#160;&#160;<a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8ac9ff800f09c136e41792c210f04de4f0">ERR_LoadIni</a> = 1
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8ac5a721f533ef9101995815a61644fa53">ERR_IniConfig</a> = 2
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8afdadb74f000ef7d390705ef92faf5531">ERR_MasterConfig</a> = 3
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8a1732f4b953356cbcd6bfb35b3aca0065">ERR_SlaveConfig</a> = 4
+<tr class="memitem:gaf2959243b6d2d01bcc8c6cf6a3c1e1f8" id="r_gaf2959243b6d2d01bcc8c6cf6a3c1e1f8"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="group__fx__system__errors.html#gaf2959243b6d2d01bcc8c6cf6a3c1e1f8">FXErrorCode</a> { <br />
+&#160;&#160;<a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8ac9ff800f09c136e41792c210f04de4f0">ERR_LoadIni</a> = 1
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8ac5a721f533ef9101995815a61644fa53">ERR_IniConfig</a> = 2
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8afdadb74f000ef7d390705ef92faf5531">ERR_MasterConfig</a> = 3
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8a1732f4b953356cbcd6bfb35b3aca0065">ERR_SlaveConfig</a> = 4
 , <br />
-&#160;&#160;<a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8acf5c9eef293efcd76d7ecdbe0a0d0f54">ERR_ActiveMaster</a> = 5
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8a716d047612b7ab5fd2c67ca7cf7fc5b7">ERR_RtTask</a> = 6
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8a7c36cd8540ba788519ff61619b3acc3d">ERR_KTask</a> = 7
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8a81fb7140989a486053fb5349f84ec6ab">ERR_Internal</a> = 100
+&#160;&#160;<a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8acf5c9eef293efcd76d7ecdbe0a0d0f54">ERR_ActiveMaster</a> = 5
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8a716d047612b7ab5fd2c67ca7cf7fc5b7">ERR_RtTask</a> = 6
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8a7c36cd8540ba788519ff61619b3acc3d">ERR_KTask</a> = 7
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8a81fb7140989a486053fb5349f84ec6ab">ERR_Internal</a> = 100
 , <br />
-&#160;&#160;<a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8acd4581fd04364aebf4266a2d09b38436">ERR_Emcy</a> = 101
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8a2d9af6a28870613bcbbc87d5df697ec6">ERR_Servo</a> = 102
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8abcfe530f03ab8c887f773db79386bcfc">ERR_PvtStreamBroken</a> = 103
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8a247daed27237e95465d49507bd9566bd">ERR_RequestPositionMode</a> = 104
+&#160;&#160;<a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8acd4581fd04364aebf4266a2d09b38436">ERR_Emcy</a> = 101
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8a2d9af6a28870613bcbbc87d5df697ec6">ERR_Servo</a> = 102
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8abcfe530f03ab8c887f773db79386bcfc">ERR_PvtStreamBroken</a> = 103
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8a247daed27237e95465d49507bd9566bd">ERR_RequestPositionMode</a> = 104
 , <br />
-&#160;&#160;<a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8abaf4dfa65924ed35e9e6c8ce4267a592">ERR_ResponsePositionMode</a> = 105
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8abc3b9f38a6447db054433b9865b11c5f">ERR_RequestTorqueMode</a> = 106
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8ab8bd30ab5f40c98c395d85d11202b8ea">ERR_ResponseTorqueMode</a> = 107
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8a26bd5749cdfab42eee992554414aaaec">ERR_RequestEnableServo</a> = 108
+&#160;&#160;<a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8abaf4dfa65924ed35e9e6c8ce4267a592">ERR_ResponsePositionMode</a> = 105
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8abc3b9f38a6447db054433b9865b11c5f">ERR_RequestTorqueMode</a> = 106
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8ab8bd30ab5f40c98c395d85d11202b8ea">ERR_ResponseTorqueMode</a> = 107
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8a26bd5749cdfab42eee992554414aaaec">ERR_RequestEnableServo</a> = 108
 , <br />
-&#160;&#160;<a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8aa33440a10ed131354397f0ba3e1632dc">ERR_ResponseEnableServo</a> = 109
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8aab4674cb939da3378abd16d5a7646a61">ERR_ResponseDisableServo</a> = 110
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8aeb229e943549ed7e29b4ee1c266eee01">ERR_ServoStateAbnormal</a> = 111
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8ae74ab4e16bc4b42c2ccbe8de23bf7f92">ERR_SlavePdoAbnormal</a> = 112
+&#160;&#160;<a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8aa33440a10ed131354397f0ba3e1632dc">ERR_ResponseEnableServo</a> = 109
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8aab4674cb939da3378abd16d5a7646a61">ERR_ResponseDisableServo</a> = 110
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8aeb229e943549ed7e29b4ee1c266eee01">ERR_ServoStateAbnormal</a> = 111
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8ae74ab4e16bc4b42c2ccbe8de23bf7f92">ERR_SlavePdoAbnormal</a> = 112
 , <br />
-&#160;&#160;<a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8a4cd6f90eb110b15cfb1cd930ccf3998e">ERR_SlaveStateAbnormal</a> = 113
-, <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8ab0591f824c029920d9630a7590d84201">ERR_BusLinkDown</a> = 114
+&#160;&#160;<a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8a4cd6f90eb110b15cfb1cd930ccf3998e">ERR_SlaveStateAbnormal</a> = 113
+, <a class="el" href="group__fx__system__errors.html#ggaf2959243b6d2d01bcc8c6cf6a3c1e1f8ab0591f824c029920d9630a7590d84201">ERR_BusLinkDown</a> = 114
 <br />
  }</td></tr>
-<tr class="memdesc:af2959243b6d2d01bcc8c6cf6a3c1e1f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error codes used in the FX system.  <a href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8">More...</a><br /></td></tr>
+<tr class="memdesc:gaf2959243b6d2d01bcc8c6cf6a3c1e1f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">System and servo error code definitions.  <a href="group__fx__system__errors.html#gaf2959243b6d2d01bcc8c6cf6a3c1e1f8">More...</a><br /></td></tr>
+<tr class="memitem:ga848ecba884c313c20c653b7effc7b409" id="r_ga848ecba884c313c20c653b7effc7b409"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="group__fx__function__return__codes.html#ga848ecba884c313c20c653b7effc7b409">FXFuncReturn</a> { <br />
+&#160;&#160;<a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a9242676a59d547dc91fbb6d75e7e1c1c">FUNC_RET_SUCCESS</a> = 0
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a81c6ec3671ff1c5f857b6217666e7050">FUNC_RET_OPERATION_FAILED</a> = -1
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a850c5bcd5604671d339b15ee750613c3">FUNC_RET_LINK_FAILED</a> = -2
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a8889f299c824c4e140ca07d044dc5b21">FUNC_RET_LINK_NO_RESPONSE</a> = -3
+, <br />
+&#160;&#160;<a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a1cd7f6b1afa207f89e9bda34ac9d2a14">FUNC_RET_VERSION_INCOMPATIABLE</a> = -4
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409adf95e41c1712033f9cf046457efcee6a">FUNC_RET_INVALID_INPUT_ARG</a> = -5
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a7e95ad5b9e3c1e800b1f3265b39a64e3">FUNC_RET_INVALID_CONDITION</a> = -6
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a31cc97b9d8fd7c89799a0dc7024186de">FUNC_RET_SEND_FILE_FAILED</a> = -7
+, <br />
+&#160;&#160;<a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a49cc75ee988ec8cd0a80fd6eabc3ff8e">FUNC_RET_RECV_FILE_FAILED</a> = -8
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409afdfb79dac1004fcd0f3f168d6060c1c3">FUNC_RET_INVALID_OBJ</a> = -9
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a3a692c0b43b0d838da2b7463f8b3530f">FUNC_RET_OPERATION_TIMEOUT</a> = -10
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a56aff88cab1bb7fea295e63c64e5589d">FUNC_RET_SET_PARAM_FAILED</a> = -11
+, <br />
+&#160;&#160;<a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409aa45a414a4ca4c21a2c60520098cc30bb">FUNC_RET_GET_PARAM_FAILED</a> = -12
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a0ae2d50cd82bee3eaadd409670ebd105">FUNC_RET_SAVE_PARAM_FAILED</a> = -13
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a27636ea1cc158e195b3c788015cc2284">FUNC_RET_INVALID_TERMINAL</a> = -14
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a9eed7a5650679d858d4751c65991ecc6">FUNC_RET_INVALID_PARAM_SETTING</a> = -15
+, <br />
+&#160;&#160;<a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a1b0110ec1c4fd463b7e4639519144039">FUNC_RET_COMM_WAIT_READY_TIMEOUT</a> = -16
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409af81b798d07cafb820dbfe88f331b0a92">FUNC_RET_COMM_SEND_FAILED</a> = -17
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a1d9e3b54cae02c4127d909a0b5b554a2">FUNC_RET_COMM_WAIT_REPLY_TIMEOUT</a> = -18
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a8481e1719e18737bb20449462a303033">FUNC_RET_FORMAT_CMD_FAILED</a> = -19
+, <br />
+&#160;&#160;<a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a447338ffd534fc2234fd7a9d44a482be">FUNC_RET_INVALID_ROBOT_TYPE</a> = -20
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a21aa04a202a0104f6d13c870efde3482">FUNC_RET_INVALID_HAND_TYPE</a> = -21
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a3d243f4ad8f55f529cf5354b9673bc2a">FUNC_RET_LINK_REJECTED</a> = -22
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a59452a76e4180201c37607d804255c2d">FUNC_RET_INVALID_THREAD_ID</a> = -23
+, <br />
+&#160;&#160;<a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409ae91e162e96c9a1ececdc3c2c55c5a6bf">FUNC_RET_TOO_MANY_USER_DATA_ITEM</a> = -24
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a21a135cb7b897a47eaaebfbc285e90a5">FUNC_RET_INVALID_USER_DATA_ITEM</a> = -25
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a9361c14a9662ea3d8fea8e002b621c79">FUNC_RET_INVALID_USER_DATA_LEN</a> = -26
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a7915f73138338226b9f40ccec53a1fca">FUNC_RET_KINE_NOT_INITIALIZED</a> = -1000
+, <br />
+&#160;&#160;<a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a9296d2e2d15e9e31740f7cec42761f45">FUNC_RET_KINE_INIT_FAILED</a> = -1001
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a559a969ca89404bce1f1c03491d0fa28">FUNC_RET_KINE_TOOL_FAILED</a> = -1002
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a0e537e574fdccc02fe42aeafeb44353e">FUNC_RET_KINE_IK_UNREACHABLE</a> = -1010
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409aca07ce271eddc24f68864bba36c7f03f">FUNC_RET_KINE_IK_JOINT_LIMIT_EXCEEDED</a> = -1011
+, <br />
+&#160;&#160;<a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409ae38beea873dac993545973b5a31117ea">FUNC_RET_KINE_PLAN_FAILED</a> = -1020
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409aa067e24a8d783c364e343d8483dae7d2">FUNC_RET_KINE_PLAN_JOINT_LIMIT</a> = -1021
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409af357e669e3e8551018005e4c2588c10d">FUNC_RET_KINE_PLAN_UNREACHABLE</a> = -1022
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409ac2c3fa17ee2bf86f330d1aa4b653f6d0">FUNC_RET_KINE_TRAJ_POINT_OVERFLOW</a> = -1023
+, <br />
+&#160;&#160;<a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409a64e937b7c272758a36e2885ae5b655eb">FUNC_RET_KINE_SYNC_POINT_MISMATCH</a> = -1024
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409af4b8e55f0c89eaf1e9b0140678363a0e">FUNC_RET_KINE_DYNAMICS_IDENT_FAILED</a> = -1030
+, <a class="el" href="group__fx__function__return__codes.html#gga848ecba884c313c20c653b7effc7b409aa2228967e62f58c7599bcf5d60a829c2">FUNC_RET_KINE_INTERNAL_ERROR</a> = -1099
+<br />
+ }</td></tr>
+<tr class="memdesc:ga848ecba884c313c20c653b7effc7b409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return status codes for FX SDK functions.  <a href="group__fx__function__return__codes.html#ga848ecba884c313c20c653b7effc7b409">More...</a><br /></td></tr>
 </table>
-<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
-<a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8">&#9670;&#160;</a></span>FXErrorCode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#af2959243b6d2d01bcc8c6cf6a3c1e1f8">FXErrorCode</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Error codes used in the FX system. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8ac9ff800f09c136e41792c210f04de4f0" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8ac9ff800f09c136e41792c210f04de4f0"></a>ERR_LoadIni&#160;</td><td class="fielddoc"><p>Failed to load INI file. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8ac5a721f533ef9101995815a61644fa53" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8ac5a721f533ef9101995815a61644fa53"></a>ERR_IniConfig&#160;</td><td class="fielddoc"><p>Invalid INI configuration. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8afdadb74f000ef7d390705ef92faf5531" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8afdadb74f000ef7d390705ef92faf5531"></a>ERR_MasterConfig&#160;</td><td class="fielddoc"><p>Master configuration error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8a1732f4b953356cbcd6bfb35b3aca0065" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8a1732f4b953356cbcd6bfb35b3aca0065"></a>ERR_SlaveConfig&#160;</td><td class="fielddoc"><p>Slave configuration error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8acf5c9eef293efcd76d7ecdbe0a0d0f54" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8acf5c9eef293efcd76d7ecdbe0a0d0f54"></a>ERR_ActiveMaster&#160;</td><td class="fielddoc"><p>Failed to activate master. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8a716d047612b7ab5fd2c67ca7cf7fc5b7" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8a716d047612b7ab5fd2c67ca7cf7fc5b7"></a>ERR_RtTask&#160;</td><td class="fielddoc"><p>Real-time task error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8a7c36cd8540ba788519ff61619b3acc3d" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8a7c36cd8540ba788519ff61619b3acc3d"></a>ERR_KTask&#160;</td><td class="fielddoc"><p>Kernel task error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8a81fb7140989a486053fb5349f84ec6ab" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8a81fb7140989a486053fb5349f84ec6ab"></a>ERR_Internal&#160;</td><td class="fielddoc"><p>Internal system error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8acd4581fd04364aebf4266a2d09b38436" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8acd4581fd04364aebf4266a2d09b38436"></a>ERR_Emcy&#160;</td><td class="fielddoc"><p>Emergency stop triggered. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8a2d9af6a28870613bcbbc87d5df697ec6" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8a2d9af6a28870613bcbbc87d5df697ec6"></a>ERR_Servo&#160;</td><td class="fielddoc"><p>Servo general error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8abcfe530f03ab8c887f773db79386bcfc" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8abcfe530f03ab8c887f773db79386bcfc"></a>ERR_PvtStreamBroken&#160;</td><td class="fielddoc"><p>PVT data stream broken. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8a247daed27237e95465d49507bd9566bd" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8a247daed27237e95465d49507bd9566bd"></a>ERR_RequestPositionMode&#160;</td><td class="fielddoc"><p>Failed to request position mode. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8abaf4dfa65924ed35e9e6c8ce4267a592" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8abaf4dfa65924ed35e9e6c8ce4267a592"></a>ERR_ResponsePositionMode&#160;</td><td class="fielddoc"><p>Invalid response for position mode. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8abc3b9f38a6447db054433b9865b11c5f" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8abc3b9f38a6447db054433b9865b11c5f"></a>ERR_RequestTorqueMode&#160;</td><td class="fielddoc"><p>Failed to request torque mode. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8ab8bd30ab5f40c98c395d85d11202b8ea" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8ab8bd30ab5f40c98c395d85d11202b8ea"></a>ERR_ResponseTorqueMode&#160;</td><td class="fielddoc"><p>Invalid response for torque mode. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8a26bd5749cdfab42eee992554414aaaec" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8a26bd5749cdfab42eee992554414aaaec"></a>ERR_RequestEnableServo&#160;</td><td class="fielddoc"><p>Failed to enable servo. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8aa33440a10ed131354397f0ba3e1632dc" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8aa33440a10ed131354397f0ba3e1632dc"></a>ERR_ResponseEnableServo&#160;</td><td class="fielddoc"><p>Invalid response when enabling servo. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8aab4674cb939da3378abd16d5a7646a61" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8aab4674cb939da3378abd16d5a7646a61"></a>ERR_ResponseDisableServo&#160;</td><td class="fielddoc"><p>Invalid response when disabling servo. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8aeb229e943549ed7e29b4ee1c266eee01" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8aeb229e943549ed7e29b4ee1c266eee01"></a>ERR_ServoStateAbnormal&#160;</td><td class="fielddoc"><p>Abnormal servo state. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8ae74ab4e16bc4b42c2ccbe8de23bf7f92" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8ae74ab4e16bc4b42c2ccbe8de23bf7f92"></a>ERR_SlavePdoAbnormal&#160;</td><td class="fielddoc"><p>Abnormal slave PDO. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8a4cd6f90eb110b15cfb1cd930ccf3998e" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8a4cd6f90eb110b15cfb1cd930ccf3998e"></a>ERR_SlaveStateAbnormal&#160;</td><td class="fielddoc"><p>Abnormal slave state. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="af2959243b6d2d01bcc8c6cf6a3c1e1f8ab0591f824c029920d9630a7590d84201" name="af2959243b6d2d01bcc8c6cf6a3c1e1f8ab0591f824c029920d9630a7590d84201"></a>ERR_BusLinkDown&#160;</td><td class="fielddoc"><p>Bus link disconnected. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Error code definitions and function return status types for the FX system. </p>
+<p>This header defines standardized error identifiers used across FX SDK components. It includes two primary categories:</p><ul>
+<li>System-level and servo-related error codes (<a class="el" href="group__fx__system__errors.html#gaf2959243b6d2d01bcc8c6cf6a3c1e1f8" title="FXErrorCode">FXErrorCode</a>)</li>
+<li>Function return status values (<a class="el" href="group__fx__function__return__codes.html#ga848ecba884c313c20c653b7effc7b409" title="FXFuncReturn">FXFuncReturn</a>)</li>
+</ul>
+<p>These enumerations are referenced by both low-level (L0) and high-level (L1) APIs to indicate operation results, fault conditions, and communication failures. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>
@@ -231,7 +230,7 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a href="dir_f7fb87d3770fbf47bbe4a356fc71b9de.html">Common</a></li><li class="navelem"><a href="_f_x_error_code_8h.html">FXErrorCode.h</a></li>
+    <li class="navelem"><a href="_f_x_error_code_8h.html">FXErrorCode.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.17.0 </li>
   </ul>
 </div>

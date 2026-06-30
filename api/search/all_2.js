@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['ddss_0',['DDSS',['../struct_d_d_s_s.html',1,'']]],
-  ['dragtype_1',['DragType',['../_f_x_common_8h.html#aff6a4c5ab7182d5999dc15d5edf200ae',1,'FXCommon.h']]]
+  ['codes_0',['Codes',['../group__fx__function__return__codes.html',1,'Function Return Status Codes'],['../group__fx__system__errors.html',1,'FX System Error Codes']]]
 ];

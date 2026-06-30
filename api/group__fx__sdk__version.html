@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.17.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>FX_SDK: FX SDK Version</title>
+<title>My Project: FX SDK Version</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="codefolding.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -30,7 +30,7 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">FX_SDK<span id="projectnumber">&#160;00040101</span>
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -122,13 +122,13 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('group__fx__sdk
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:gab9094397a1c134920a6f4ab2ae06f394" id="r_gab9094397a1c134920a6f4ab2ae06f394"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#gab9094397a1c134920a6f4ab2ae06f394">FX_SDK_MAJOR_VERSION</a>&#160;&#160;&#160;4UL</td></tr>
-<tr class="memitem:gab0c80f2eeb57149706beee459e60f987" id="r_gab0c80f2eeb57149706beee459e60f987"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#gab0c80f2eeb57149706beee459e60f987">FX_SDK_MINOR_VERSION</a>&#160;&#160;&#160;1UL</td></tr>
-<tr class="memitem:gae0f38be7cc78f14ca9692bb41db56e99" id="r_gae0f38be7cc78f14ca9692bb41db56e99"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#gae0f38be7cc78f14ca9692bb41db56e99">FX_SDK_PATCH_VERSION</a>&#160;&#160;&#160;1UL</td></tr>
+<tr class="memitem:gab0c80f2eeb57149706beee459e60f987" id="r_gab0c80f2eeb57149706beee459e60f987"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#gab0c80f2eeb57149706beee459e60f987">FX_SDK_MINOR_VERSION</a>&#160;&#160;&#160;4UL</td></tr>
+<tr class="memitem:gae0f38be7cc78f14ca9692bb41db56e99" id="r_gae0f38be7cc78f14ca9692bb41db56e99"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#gae0f38be7cc78f14ca9692bb41db56e99">FX_SDK_PATCH_VERSION</a>&#160;&#160;&#160;2UL</td></tr>
 <tr class="memitem:gae901550998712b1249061e53747a1d5f" id="r_gae901550998712b1249061e53747a1d5f"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#gae901550998712b1249061e53747a1d5f">MAKE_VERSION</a>(major,  minor,  sub)</td></tr>
-<tr class="memdesc:gae901550998712b1249061e53747a1d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a 32-bit version number.  <br /></td></tr>
+<tr class="memdesc:gae901550998712b1249061e53747a1d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a packed 32-bit SDK version value.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>SDK version definitions and helpers. </p>
+<div class="textblock"><p>SDK version definitions and helper macros. </p>
 </div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="gab9094397a1c134920a6f4ab2ae06f394" name="gab9094397a1c134920a6f4ab2ae06f394"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gab9094397a1c134920a6f4ab2ae06f394">&#9670;&#160;</a></span>FX_SDK_MAJOR_VERSION</h2>
@@ -141,7 +141,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Major version </p>
+<p>Major version number </p>
 
 </div>
 </div>
@@ -152,11 +152,11 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FX_SDK_MINOR_VERSION&#160;&#160;&#160;1UL</td>
+          <td class="memname">#define FX_SDK_MINOR_VERSION&#160;&#160;&#160;4UL</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Minor version </p>
+<p>Minor version number </p>
 
 </div>
 </div>
@@ -167,11 +167,11 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FX_SDK_PATCH_VERSION&#160;&#160;&#160;1UL</td>
+          <td class="memname">#define FX_SDK_PATCH_VERSION&#160;&#160;&#160;2UL</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Patch version </p>
+<p>Patch version number </p>
 
 </div>
 </div>
@@ -200,8 +200,12 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(((major) &lt;&lt; 16) | ((minor) &lt;&lt; 8) | (sub))</div>
 </div><!-- fragment -->
-<p>Build a 32-bit version number. </p>
-<p>Combines major, minor, and patch versions into a single value: [15:8]=major, [7:0]=minor, [23:16]=patch.</p>
+<p>Construct a packed 32-bit SDK version value. </p>
+<p>The resulting version encoding follows the layout:</p><ul>
+<li>Bits [15:8] : Major version</li>
+<li>Bits [7:0] : Minor version</li>
+<li>Bits [23:16]: Patch version</li>
+</ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">major</td><td>Major version </td></tr>
@@ -210,7 +214,7 @@ Macros</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Packed 32-bit version </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Packed 32-bit version value </dd></dl>
 
 </div>
 </div>
