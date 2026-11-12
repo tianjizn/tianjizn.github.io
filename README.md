@@ -17,6 +17,12 @@
 - **Marvin 产品线**: 前往 [Marvin Pro 分支](sdk03/marvin)
 - **摇操文档**: [外部链接](https://klmmotion.github.io/Apex_doc_center/)
 
+## 许可证
+
+本仓库的文档内容采用 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) 许可。详见 [LICENSE](LICENSE) 文件。
+
+Copyright © 2026 tianjizn.
+
 ## 联系方式
 
 如有问题，请联系技术支持。
